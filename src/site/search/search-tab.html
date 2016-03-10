@@ -1,0 +1,16 @@
+  <div ng-show="search.isActive()">
+      <div class="cover-container">
+        <div align="left">
+          <h1>{{portalCtrl.greeting()}}</h1>
+          <p class="lead">Enter your search:...</p>
+            <form class="form-horizontal" name="searchFaq" align="left" ng-submit="search.search()" novalidate>
+                <div class="form-group">
+                    <input ng-model="search.searchTxt" type="text" class="form-control" placeholder="Search topic" ng-required="required">
+                    <button type="submit" class="btn btn-success">Search</button>
+                    <!-- <div ng-click="projects.reset()" class="btn btn-default pull-right">Cancel</div> -->
+                </div>
+            </form>
+        </div>
+        <search-tab-section></search-tab-section>
+      </div>
+  </div>
