@@ -11,7 +11,8 @@
                 url: url,
                 method: method,
                 headers: {
-                  'Content-Type': 'application/json'
+                  'Content-Type': 'application/json',
+                  'Accept': 'application/vnd.github.v3.text-match+json'
                 },
                 data: body
               })
