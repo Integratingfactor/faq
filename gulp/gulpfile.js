@@ -156,12 +156,12 @@ gulp.task('styles', function(){
   	.pipe(inject(injectAppFiles, injectAppOptions))
     .pipe(sass())
     .pipe(csso())
-    .pipe(gulp.dest('../styles'));
+    .pipe(gulp.dest('../faq/styles'));
 });
 
 gulp.task('html', ['apidoc', 'styles', 'js', 'images'], function() {
-  var injectFiles = gulp.src(['../styles/*.css',
-    '../js/*.js']);
+  var injectFiles = gulp.src(['../faq/styles/*.css',
+    '../faq/js/*.js']);
 
   var injectOptions = {
     // addRootSlash: false,
@@ -172,17 +172,17 @@ gulp.task('html', ['apidoc', 'styles', 'js', 'images'], function() {
   return gulp.src('../src/**/*.html')
     .pipe(inject(injectFiles, injectOptions))
     .pipe(wiredep())
-    .pipe(gulp.dest('../'));
+    .pipe(gulp.dest('../faq'));
 });
 
 gulp.task('js', function() {
   return gulp.src('../src/**/*.js')
-    .pipe(gulp.dest('../'));
+    .pipe(gulp.dest('../faq'));
 });
 
 gulp.task('images', function() {
   return gulp.src('../src/images/*.png')
-    .pipe(gulp.dest('../images'));
+    .pipe(gulp.dest('../faq/images'));
 });
 
 // Watch files for changes & reload
