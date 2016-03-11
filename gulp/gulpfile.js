@@ -172,7 +172,7 @@ gulp.task('html', ['apidoc', 'styles', 'js', 'images'], function() {
   return gulp.src('../src/**/*.html')
     .pipe(inject(injectFiles, injectOptions))
     .pipe(wiredep())
-    .pipe(gulp.dest('../faq'));
+    .pipe(gulp.dest('../'));
 });
 
 gulp.task('js', function() {
