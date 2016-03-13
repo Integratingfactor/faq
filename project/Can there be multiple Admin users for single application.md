@@ -1,0 +1,2 @@
+## Can there be multiple Admin users for single application or project?
+Yes, a project can have multiple users assigned role `ADMIN` to be administrator for the project. Number of users that can be assigned is limited by the quota of the project, for projects with free quota upto 2 users can be assigned `ADMIN` role. Premium projects can have additional number of users with `ADMIN` role.
