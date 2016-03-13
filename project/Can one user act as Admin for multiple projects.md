@@ -1,0 +1,6 @@
+## Can one user act as Admin for multiple applications or projects?
+Yes, one of the fundamental principles of Integratingfactor.com platform is that a user should only need one single account in the system regardless of any number of applications and roles for the user.
+
+Any user account by itself does not have a role on the Integratingfactor.com platform, all users accounts are created equal. Roles are specific to each project, and only applicable to application in that project's context.
+
+As long as a user has registered as a developer with [iF Studio](https://integratingfactor.github.io), they can create any number of projects (where they are automatically assigned `ADMIN` role) and they can be invited with `ADMIN` role to any number of projects. Invidual project itself may have a limiation on number of administrators it can have, that may limit number of users that can get `ADMIN` role for that particular project. This does not imply any limitation on number of projects that a user can have `ADMIN` role.
