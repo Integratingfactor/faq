@@ -1,0 +1,4 @@
+## Do project and application have one-to-one relationship?
+Yes, in general each application will have a corresponding project defintion. However, a project defines multiple aspects for an application, e.g., components of the application, its RBAC model, the userbase, project administrators and any accounting information associated with the application. So, in general project contains all the meta data and administrative information abou the project.
+
+Additional details can be found at [FAQ: What is an application and a project?](https://github.com/Integratingfactor/faq/blob/fd04871dd333d2066cef45adbd1841a2fdc3f0c5/project/What%20is%20a%20project.md#what-is-an-application-and-a-project-what-kind-of-hierarchies-exists-in-the-arrangement-of-projects-in-integratingfactorcom-platform).
