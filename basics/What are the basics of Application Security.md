@@ -4,6 +4,7 @@ Modern web application security has following basic components:
 #### Authentication (a.k.a. AuthN)
 
 A typical application would like to distinctively know each individual user accessing the application services. It may not be necessary to know all the user details, e.g., their name, location etc., but at the very minimum we need following:
+
 1. be able to uniquely identity an individual user from all other users
 1. be able to consistently identitify the same individual user across multiple different service requests
 
@@ -21,8 +22,9 @@ Authorization checks are about protecting resources (service requests/features) 
 It is imperative that modern web applications implement proper encryption and protection of user data, to protect their privacy as well as to provide "Defense in depth" against any potential security breach that leads to unauthorized access to user data.
 
 There are 3 levels of user data protection:
+
 1. protecting data in transit
 1. protecting data at rest
-1. protecting shared data
+1. protecting data with social sharing
 
 While #1 above is commonly used and is easy to accomplish, the other 2 levels of protection are many times overlooked or neglected. Unfortunately, most of the security breaches occur due to lack to proper protection of the #2 and #3 above.
