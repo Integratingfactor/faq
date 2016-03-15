@@ -27,4 +27,4 @@ There are 3 levels of user data protection:
 1. protecting data at rest
 1. protecting data with social sharing
 
-While #1 above is commonly used and is easy to accomplish, the other 2 levels of protection are many times overlooked or neglected. Unfortunately, most of the security breaches occur due to lack to proper protection of the #2 and #3 above.
+While #1 above is commonly used and is easy to accomplish, the other 2 levels of protection are many times overlooked or neglected. Unfortunately, most of the security breaches occur due to neglect in #2 and #3 above.
